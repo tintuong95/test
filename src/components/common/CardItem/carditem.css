@@ -1,0 +1,60 @@
+.card-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item>img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.card-item>.card-item-title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.card-item .card-item-price {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.card-item .card-item-favorite {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    position: relative;
+}
+
+.price-favorite {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item-favorite>i {
+    color: #fa7b26;
+    position: absolute;
+    left: -30px;
+    top: 5px
+}

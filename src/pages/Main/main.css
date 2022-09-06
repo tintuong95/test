@@ -1,0 +1,326 @@
+            .main_banner {
+                height: 1000px;
+                background-image: url("../../assets/banner/banner06.png");
+                object-fit: contain;
+            }
+            
+            .best_product {
+                height: 1073px;
+                background-image: url("../../assets/banner/banner05.png");
+                object-fit: contain;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .best_product_title {
+                width: 463px;
+                height: 37px;
+                color: var(--bright-orange);
+                font-size: 50px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: 5px;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 150px;
+            }
+            
+            .product-box-title {
+                width: 190px;
+            }
+            
+            .best_product_description {
+                margin: 0 auto;
+                margin-top: 50px;
+                width: 665px;
+                height: 52px;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.6;
+                letter-spacing: normal;
+                text-align: center;
+                color: var(--bright-orange);
+            }
+            
+            .list-card {
+                display: flex;
+                margin: 0 auto;
+                margin-top: 74px;
+            }
+            
+            .list-product {
+                width: 1670px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 18px;
+                margin: 0 auto;
+                margin-top: 74px;
+                padding-left: 18px;
+            }
+            
+            .btn-see-more {
+                width: 199px;
+                height: 60px;
+                border: solid 3px var(--dark-maroon);
+                font-size: 23px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.09;
+                letter-spacing: normal;
+                color: var(--black-three);
+                background-color: transparent;
+            }
+            
+            .see-more {
+                margin-top: 60px;
+                text-align: center;
+                margin-bottom: 143px;
+            }
+            
+            .introduction {
+                height: 576px;
+                object-fit: contain;
+                background-image: url("../../assets/banner/banner03.png");
+            }
+            
+            .introduction-title {
+                font-size: 50px;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: 5px;
+                text-align: left;
+                color: var(--white);
+                display: block;
+                margin: 0 auto;
+                margin-left: 173px;
+                padding-top: 174px;
+                text-transform: uppercase;
+                font-weight: 800;
+            }
+            
+            .introduction-description {
+                width: 667px;
+                margin-top: 60px;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.75;
+                letter-spacing: normal;
+                text-align: left;
+                color: var(--white);
+                display: block;
+                margin-left: 173px
+            }
+            
+            .brand-story {
+                height: 956px;
+                background-image: url("../../assets/banner/banner04.png");
+                padding-top: 150px;
+            }
+            
+            .brand-story-title {
+                font-family: Montserrat;
+                font-size: 45px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: 4.5px;
+                text-align: left;
+                color: var(--sun-yellow);
+                text-align: center;
+            }
+            
+            .brand-story-description {
+                width: 682px;
+                font-family: NotoSansCJKkr;
+                font-size: 16px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: center;
+                color: var(--sun-yellow);
+                margin: 0 auto;
+            }
+            
+            .brand-story-box {
+                width: 1253px;
+                margin: 0 auto;
+                background-color: var(--white);
+                border: solid 3px var(--black-two);
+                margin-top: 50px
+            }
+            
+            .brand-story-box-head {
+                margin: 0 auto;
+                height: 24px;
+                background-color: var(--black-two);
+                padding-top: 1px
+            }
+            
+            .brand-story-box-head>hr {
+                width: 1235px;
+                border: 1px solid var(--cerulean);
+            }
+            
+            .brand-story-box-content {
+                display: flex;
+            }
+            
+            .brand-story-box-content-left {
+                width: 612px;
+                height: 418px;
+                object-fit: contain;
+                background-image: url("../../assets/banner/banner07.png");
+            }
+            
+            .brand-story-box-content-right {
+                padding-left: 45px
+            }
+            
+            .brand-story-box-content-right-title {
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2.4;
+                letter-spacing: normal;
+                text-align: left;
+                color: var(--black-three);
+                text-transform: uppercase
+            }
+            
+            .brand-story-box-content-right-description {
+                width: 535px;
+                font-family: NotoSansCJKkr;
+                font-size: 16px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: left;
+                color: var(--black-three);
+            }
+            
+            .happened-issue {
+                height: 1100px;
+                padding-top: 158px;
+                background-image: url("../../assets/banner/banner01.png");
+            }
+            
+            .happened-issue-title {
+                margin: 0;
+                font-size: 45px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: 4.5px;
+                text-align: left;
+                color: var(--dark-brown);
+                text-align: center;
+                margin-bottom: 40px;
+                text-transform: uppercase;
+            }
+            
+            .happened-issue-description {
+                width: 720px;
+                font-size: 16px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                margin: 0 auto;
+                color: var(--dark-brown);
+            }
+            
+            .happened-issue-brand {
+                display: flex;
+            }
+            
+            .happened-issue-card {
+                flex: 1;
+                width: 387px;
+                height: 480px;
+                border: solid 3px var(--black-two);
+                border-right: 0px;
+            }
+            
+            .bg-bright-orange {
+                background-color: var(--bright-orange-two);
+            }
+            
+            .whpn-issue {
+                width: 189px;
+                margin: 0 0 63px;
+                font-family: Montserrat;
+                font-size: 55px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.04;
+                letter-spacing: normal;
+                text-align: center;
+                color: var(--dark-brown);
+                text-transform: uppercase;
+                margin: auto;
+                margin-top: 90px;
+            }
+            
+            .whpn-issue-img {
+                margin: 0 auto;
+            }
+            
+            .whpn-issue-img-content {
+                text-align: center;
+                margin-top: 70px;
+            }
+            
+            .what-happened {
+                height: 1710px;
+                background-image: url("../../assets/banner/banner02.png");
+            }
+            
+            .mt-148 {
+                margin-top: 148px;
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .best_product,
+                .what-happened,
+                .happened-issue,
+                .introduction,
+                .brand-story {
+                    display: none;
+                }
+                .list-product {
+                    width: 100%;
+                    justify-content: center;
+                    padding: 0
+                }
+                .main_banner {
+                    width: 100%;
+                    height: 400px;
+                    background-size: cover;
+                    background-position-x: center;
+                }
+            }
+            
+            .see-more {
+                margin: 40px;
+            }

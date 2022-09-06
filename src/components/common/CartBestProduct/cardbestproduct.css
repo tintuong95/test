@@ -1,0 +1,60 @@
+.card-best-product {
+    position: relative;
+    width: 523px;
+    height: 514px;
+    object-fit: contain;
+}
+
+.card-best-product>img {
+    position: absolute;
+    width: 523px;
+    height: 514px;
+    object-fit: contain;
+}
+
+.card-best-product_bg {
+    width: 92px;
+    height: 92px;
+    background-image: url("../../../assets/icon/producticon-01.png");
+    object-fit: contain;
+    padding: 2px;
+    position: absolute;
+    top: -45px;
+}
+
+.product-box {
+    width: 369px;
+    height: 79px;
+    border: solid 3px #020001;
+    background-color: #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-box-title {
+    width: 188px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    margin-left: 27px;
+}
+
+.product-box-btn {
+    width: 65px;
+    height: 66px;
+    margin-right: 10px;
+    object-fit: contain;
+    background-image: url("../../../assets/icon/go-icon.png");
+}
