@@ -9,7 +9,7 @@ import card3 from "../../assets/card/best-image-03.png";
 
 import "./main.css"
 import CardItem from '../../components/common/CardItem/index.js';
-import Footer from '../../components/common/CartBestProduct/Footer/index.js';
+import Footer from '../../components/common/Footer/index.js';
 
 const Main = () => {
     function detectMob() {

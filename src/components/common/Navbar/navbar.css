@@ -4,14 +4,7 @@
     background-color: var(--black-two);
     display: flex;
     align-items: center;
-}
-
-.box-left {
-    width: 50%;
-}
-
-.box-right {
-    width: 50%;
+    justify-content: space-between;
 }
 
 img.logo {
@@ -25,7 +18,7 @@ img.logo {
 .link {
     width: 111px;
     height: 11px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -52,6 +45,15 @@ img.logo {
 }
 
 @media only screen and (max-width: 480px) {
+    .box-right {
+        display: none;
+    }
+    .material-icons {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .box-right {
         display: none;
     }

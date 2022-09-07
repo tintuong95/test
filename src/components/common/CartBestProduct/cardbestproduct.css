@@ -1,15 +1,12 @@
 .card-best-product {
     position: relative;
-    width: 523px;
-    height: 514px;
-    object-fit: contain;
+    width: 100%;
+    flex: 1
 }
 
 .card-best-product>img {
-    position: absolute;
-    width: 523px;
-    height: 514px;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card-best-product_bg {
@@ -23,8 +20,7 @@
 }
 
 .product-box {
-    width: 369px;
-    height: 79px;
+    width: 75%;
     border: solid 3px #020001;
     background-color: #fff;
     position: absolute;
@@ -34,13 +30,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem
 }
 
 .product-box-title {
-    width: 188px;
-    height: 44px;
+    width: 80%;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -48,13 +44,12 @@
     letter-spacing: normal;
     text-align: left;
     color: #222222;
-    margin-left: 27px;
+    margin-left: 1rem;
 }
 
 .product-box-btn {
-    width: 65px;
-    height: 66px;
+    width: 20%;
+    height: 100%;
     margin-right: 10px;
-    object-fit: contain;
-    background-image: url("../../../assets/icon/go-icon.png");
+    object-fit: cover;
 }

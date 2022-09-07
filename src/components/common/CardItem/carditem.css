@@ -1,12 +1,11 @@
 .card-item {
-    width: 300px;
+    width: 18%;
     display: flex;
     flex-direction: column;
 }
 
 .card-item>img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -54,7 +53,24 @@
 
 .card-item-favorite>i {
     color: #fa7b26;
-    position: absolute;
-    left: -30px;
-    top: 5px
+    margin-right: 4px
+}
+
+@media only screen and (max-width: 376px) {
+    .card-item {
+        width: 94% !important;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .card-item {
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-item {
+        width: 30%;
+    }
 }

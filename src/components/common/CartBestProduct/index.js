@@ -9,7 +9,11 @@ const CardBestProduct = ({image}) => {
           <span className="product-box-title">
             How to create mobile-optimized
           </span>
-          <div className="product-box-btn"></div>
+          <img
+            src={require("../../../assets/icon/go-icon.png")}
+            className="product-box-btn"
+            alt=""
+          />
         </div>
       </div>
     );

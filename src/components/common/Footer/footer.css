@@ -20,7 +20,7 @@
     }
     
     .footer-title {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -30,8 +30,7 @@
     }
     
     .footer-description>a {
-        font-family: NotoSansCJKkr;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 300;
         font-stretch: normal;
         font-style: normal;
@@ -58,8 +57,7 @@
     }
     
     .footer-last-left>p {
-        font-family: NotoSansCJKkr;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 300;
         font-stretch: normal;
         font-style: normal;

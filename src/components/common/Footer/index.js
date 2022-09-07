@@ -66,9 +66,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-last-right">
-          <img src={require("../../../../assets/icon/snsicon-01.png")} alt="" />
-          <img src={require("../../../../assets/icon/snsicon-02.png")} alt="" />
-          <img src={require("../../../../assets/icon/snsicon-03.png")} alt="" />
+          <img src={require("../../../assets/icon/snsicon-01.png")} alt="" />
+          <img src={require("../../../assets/icon/snsicon-02.png")} alt="" />
+          <img src={require("../../../assets/icon/snsicon-03.png")} alt="" />
         </div>
       </div>
     </>
