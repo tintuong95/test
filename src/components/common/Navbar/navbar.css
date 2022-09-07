@@ -8,9 +8,8 @@
 }
 
 img.logo {
-    width: 226px;
-    height: 26px;
-    margin-left: 97px;
+    width: 10rem;
+    margin-left: 7rem;
     object-fit: contain;
     /* background-color: #fff; */
 }
@@ -44,20 +43,46 @@ img.logo {
     display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 378px) {
+    .box {
+        width: 100%;
+        justify-content: center;
+    }
     .box-right {
         display: none;
     }
+    .box-flex {
+        width: 100%;
+    }
     .material-icons {
         display: block;
+    }
+    img.logo {
+        width: 13rem;
+        margin: 0 auto !important;
+        object-fit: contain;
+        /* background-color: #fff; */
     }
 }
 
 @media only screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+        justify-content: center;
+    }
     .box-right {
         display: none;
     }
+    .box-flex {
+        width: 100%;
+    }
     .material-icons {
         display: block;
+    }
+    img.logo {
+        width: 16rem;
+        margin: 0 auto !important;
+        object-fit: contain;
+        /* background-color: #fff; */
     }
 }
